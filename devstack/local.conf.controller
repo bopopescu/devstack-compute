@@ -1,0 +1,27 @@
+[[local|localrc]]
+HOST_IP=100.96.9.19
+DATABASE_PASSWORD=password
+RABBIT_PASSWORD=password
+SERVICE_TOKEN=password
+SERVICE_PASSWORD=password
+ADMIN_PASSWORD=password
+MULTI_NODE=True
+IMAGE_URLS=",http://cdn.download.cirros-cloud.net/0.3.2/cirros-0.3.2-x86_64-disk.img"
+
+disable_service n-net
+enable_service q-svc q-agt q-dhcp q-l3 q-meta neutron n-novnc
+
+OFFLINE=True
+
+# Enable Logging
+LOGFILE=/opt/stack/logs/stack.sh.log
+VERBOSE=True
+LOG_COLOR=True
+SCREEN_LOGDIR=/opt/stack/logs
+ENABLE_DEBUG_LOG_LEVEL=True
+
+NOVA_VNC_ENABLED=True
+NOVNCPROXY_URL="http://100.96.9.19:6080/vnc_auto.html"
+VNCSERVER_LISTEN=$HOST_IP
+VNCSERVER_PROXYCLIENT_ADDRESS=$HOST_IP
+

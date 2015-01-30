@@ -1,0 +1,12 @@
+sessionname stack
+hardstatus alwayslastline ':'
+setenv PROMPT_COMMAND /bin/true
+screen -t shell bash
+screen -t q-agt bash
+stuff "python /usr/local/bin/neutron-openvswitch-agent --config-file /etc/neutron/neutron.conf --config-file /etc/neutron/plugins/ml2/ml2_conf.ini"
+logfile /opt/stack/logs/screen-q-agt.log.2015-01-30-004215
+log on
+screen -t n-cpu bash
+stuff "/usr/local/bin/nova-compute --config-file /etc/nova/nova.conf"
+logfile /opt/stack/logs/screen-n-cpu.log.2015-01-30-004215
+log on

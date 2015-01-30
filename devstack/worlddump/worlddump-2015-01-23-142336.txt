@@ -1,0 +1,293 @@
+
+File System Summary
+===================
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2       885G   38G  803G   5% /
+none            4.0K     0  4.0K   0% /sys/fs/cgroup
+udev             16G  4.0K   16G   1% /dev
+tmpfs           3.2G  1.4M  3.2G   1% /run
+none            5.0M     0  5.0M   0% /run/lock
+none             16G  148K   16G   1% /run/shm
+none            100M   48K  100M   1% /run/user
+/dev/sda1       511M  3.4M  508M   1% /boot/efi
+
+
+Process Listing
+===============
+
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.0  33892  3148 ?        Ss   Jan09   0:02 /sbin/init
+root         2  0.0  0.0      0     0 ?        S    Jan09   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S    Jan09   0:00 [ksoftirqd/0]
+root         5  0.0  0.0      0     0 ?        S<   Jan09   0:00 [kworker/0:0H]
+root         7  0.0  0.0      0     0 ?        S    Jan09   0:22 [rcu_sched]
+root         8  0.0  0.0      0     0 ?        S    Jan09   0:07 [rcuos/0]
+root         9  0.0  0.0      0     0 ?        S    Jan09   0:07 [rcuos/1]
+root        10  0.0  0.0      0     0 ?        S    Jan09   0:11 [rcuos/2]
+root        11  0.0  0.0      0     0 ?        S    Jan09   0:07 [rcuos/3]
+root        12  0.0  0.0      0     0 ?        S    Jan09   0:03 [rcuos/4]
+root        13  0.0  0.0      0     0 ?        S    Jan09   0:03 [rcuos/5]
+root        14  0.0  0.0      0     0 ?        S    Jan09   0:04 [rcuos/6]
+root        15  0.0  0.0      0     0 ?        S    Jan09   0:03 [rcuos/7]
+root        16  0.0  0.0      0     0 ?        S    Jan09   0:00 [rcu_bh]
+root        17  0.0  0.0      0     0 ?        S    Jan09   0:00 [rcuob/0]
+root        18  0.0  0.0      0     0 ?        S    Jan09   0:00 [rcuob/1]
+root        19  0.0  0.0      0     0 ?        S    Jan09   0:00 [rcuob/2]
+root        20  0.0  0.0      0     0 ?        S    Jan09   0:00 [rcuob/3]
+root        21  0.0  0.0      0     0 ?        S    Jan09   0:00 [rcuob/4]
+root        22  0.0  0.0      0     0 ?        S    Jan09   0:00 [rcuob/5]
+root        23  0.0  0.0      0     0 ?        S    Jan09   0:00 [rcuob/6]
+root        24  0.0  0.0      0     0 ?        S    Jan09   0:00 [rcuob/7]
+root        25  0.0  0.0      0     0 ?        S    Jan09   0:00 [migration/0]
+root        26  0.0  0.0      0     0 ?        S    Jan09   0:02 [watchdog/0]
+root        27  0.0  0.0      0     0 ?        S    Jan09   0:02 [watchdog/1]
+root        28  0.0  0.0      0     0 ?        S    Jan09   0:00 [migration/1]
+root        29  0.0  0.0      0     0 ?        S    Jan09   0:00 [ksoftirqd/1]
+root        31  0.0  0.0      0     0 ?        S<   Jan09   0:00 [kworker/1:0H]
+root        32  0.0  0.0      0     0 ?        S    Jan09   0:01 [watchdog/2]
+root        33  0.0  0.0      0     0 ?        S    Jan09   0:00 [migration/2]
+root        34  0.0  0.0      0     0 ?        S    Jan09   0:00 [ksoftirqd/2]
+root        36  0.0  0.0      0     0 ?        S<   Jan09   0:00 [kworker/2:0H]
+root        37  0.0  0.0      0     0 ?        S    Jan09   0:01 [watchdog/3]
+root        38  0.0  0.0      0     0 ?        S    Jan09   0:00 [migration/3]
+root        39  0.0  0.0      0     0 ?        S    Jan09   0:00 [ksoftirqd/3]
+root        41  0.0  0.0      0     0 ?        S<   Jan09   0:00 [kworker/3:0H]
+root        42  0.0  0.0      0     0 ?        S    Jan09   0:01 [watchdog/4]
+root        43  0.0  0.0      0     0 ?        S    Jan09   0:00 [migration/4]
+root        44  0.0  0.0      0     0 ?        S    Jan09   0:00 [ksoftirqd/4]
+root        46  0.0  0.0      0     0 ?        S<   Jan09   0:00 [kworker/4:0H]
+root        47  0.0  0.0      0     0 ?        S    Jan09   0:01 [watchdog/5]
+root        48  0.0  0.0      0     0 ?        S    Jan09   0:00 [migration/5]
+root        49  0.0  0.0      0     0 ?        S    Jan09   0:00 [ksoftirqd/5]
+root        51  0.0  0.0      0     0 ?        S<   Jan09   0:00 [kworker/5:0H]
+root        52  0.0  0.0      0     0 ?        S    Jan09   0:01 [watchdog/6]
+root        53  0.0  0.0      0     0 ?        S    Jan09   0:00 [migration/6]
+root        54  0.0  0.0      0     0 ?        S    Jan09   0:00 [ksoftirqd/6]
+root        56  0.0  0.0      0     0 ?        S<   Jan09   0:00 [kworker/6:0H]
+root        57  0.0  0.0      0     0 ?        S    Jan09   0:01 [watchdog/7]
+root        58  0.0  0.0      0     0 ?        S    Jan09   0:00 [migration/7]
+root        59  0.0  0.0      0     0 ?        S    Jan09   0:00 [ksoftirqd/7]
+root        61  0.0  0.0      0     0 ?        S<   Jan09   0:00 [kworker/7:0H]
+root        62  0.0  0.0      0     0 ?        S<   Jan09   0:00 [khelper]
+root        63  0.0  0.0      0     0 ?        S    Jan09   0:00 [kdevtmpfs]
+root        64  0.0  0.0      0     0 ?        S<   Jan09   0:00 [netns]
+root        65  0.0  0.0      0     0 ?        S<   Jan09   0:00 [writeback]
+root        66  0.0  0.0      0     0 ?        S<   Jan09   0:00 [kintegrityd]
+root        67  0.0  0.0      0     0 ?        S<   Jan09   0:00 [bioset]
+root        68  0.0  0.0      0     0 ?        S<   Jan09   0:00 [kworker/u17:0]
+root        69  0.0  0.0      0     0 ?        S<   Jan09   0:00 [kblockd]
+root        70  0.0  0.0      0     0 ?        S<   Jan09   0:00 [ata_sff]
+root        71  0.0  0.0      0     0 ?        S    Jan09   0:00 [khubd]
+root        72  0.0  0.0      0     0 ?        S<   Jan09   0:00 [md]
+root        73  0.0  0.0      0     0 ?        S<   Jan09   0:00 [devfreq_wq]
+root        76  0.0  0.0      0     0 ?        S    Jan09   0:00 [khungtaskd]
+root        77  0.0  0.0      0     0 ?        S    Jan09   0:10 [kswapd0]
+root        78  0.1  0.0      0     0 ?        SN   Jan09  34:37 [ksmd]
+root        79  0.0  0.0      0     0 ?        SN   Jan09   0:04 [khugepaged]
+root        80  0.0  0.0      0     0 ?        S    Jan09   0:00 [fsnotify_mark]
+root        81  0.0  0.0      0     0 ?        S    Jan09   0:00 [ecryptfs-kthrea]
+root        82  0.0  0.0      0     0 ?        S<   Jan09   0:00 [crypto]
+root        94  0.0  0.0      0     0 ?        S<   Jan09   0:00 [kthrotld]
+root        96  0.0  0.0      0     0 ?        S    Jan09   1:25 [kworker/6:1]
+root       116  0.0  0.0      0     0 ?        S<   Jan09   0:00 [deferwq]
+root       117  0.0  0.0      0     0 ?        S<   Jan09   0:00 [charger_manager]
+root       177  0.0  0.0      0     0 ?        S<   Jan09   0:00 [kpsmoused]
+root       179  0.0  0.0      0     0 ?        S    Jan09   0:00 [scsi_eh_0]
+root       180  0.0  0.0      0     0 ?        S    Jan09   0:00 [scsi_eh_1]
+root       181  0.0  0.0      0     0 ?        S    Jan09   0:00 [scsi_eh_2]
+root       182  0.0  0.0      0     0 ?        S    Jan09   0:00 [scsi_eh_3]
+root       183  0.0  0.0      0     0 ?        S    Jan09   0:00 [scsi_eh_4]
+root       184  0.0  0.0      0     0 ?        S    Jan09   0:00 [scsi_eh_5]
+root       198  0.0  0.0      0     0 ?        S    Jan09   0:02 [jbd2/sda2-8]
+root       199  0.0  0.0      0     0 ?        S<   Jan09   0:00 [ext4-rsv-conver]
+root       388  0.0  0.0  19608   912 ?        S    Jan09   0:00 upstart-udev-bridge --daemon
+root       392  0.0  0.0  51672  1816 ?        Ss   Jan09   0:00 /lib/systemd/systemd-udevd --daemon
+root       461  0.0  0.0      0     0 ?        S<   Jan09   0:00 [kworker/u17:1]
+root       485  0.0  0.0      0     0 ?        S    Jan09   0:00 [irq/52-mei_me]
+root       503  0.0  0.0      0     0 ?        S<   Jan09   0:00 [kvm-irqfd-clean]
+root       520  0.0  0.0      0     0 ?        S<   Jan09   0:00 [kmpathd]
+root       521  0.0  0.0      0     0 ?        S<   Jan09   0:00 [kmpath_handlerd]
+root       563  0.0  0.0      0     0 ?        S<   Jan09   0:00 [hd-audio0]
+root       567  0.0  0.0      0     0 ?        S<   Jan09   0:00 [hd-audio1]
+root       645  0.0  0.0  15260   624 ?        S    Jan09   0:00 upstart-socket-bridge --daemon
+root       850  0.0  0.0  15276   640 ?        S    Jan09   0:00 upstart-file-bridge --daemon
+message+   860  0.0  0.0  40420  2680 ?        Ss   Jan09   0:02 dbus-daemon --system --fork
+root       872  0.0  0.0  19292  1212 ?        Ss   Jan09   0:00 /usr/sbin/bluetoothd
+root       893  0.0  0.0  43564  1884 ?        Ss   Jan09   0:00 /lib/systemd/systemd-logind
+avahi      894  0.0  0.0  32816  2184 ?        S    Jan09   0:20 avahi-daemon: running [ER-PC7.local]
+avahi      897  0.0  0.0  32224   460 ?        S    Jan09   0:00 avahi-daemon: chroot helper
+root       906  0.0  0.0      0     0 ?        S<   Jan09   0:00 [krfcommd]
+root       964  0.0  0.0  10232  2924 ?        Ss   Jan09   0:00 dhclient -1 -v -pf /run/dhclient.br0.pid -lf /var/lib/dhcp/dhclient.br0.leases br0
+root      1059  0.0  0.0 330232  3456 ?        Ssl  Jan09   0:00 /usr/sbin/ModemManager
+root      1097  0.0  0.0 356800  5936 ?        Ssl  Jan09   0:11 NetworkManager
+root      1161  0.0  0.0 296800  6892 ?        Sl   Jan09   0:04 /usr/lib/policykit-1/polkitd --no-debug
+root      1210  0.0  0.0  20016   892 tty4     Ss+  Jan09   0:00 /sbin/getty -8 38400 tty4
+root      1214  0.0  0.0  20016   892 tty5     Ss+  Jan09   0:00 /sbin/getty -8 38400 tty5
+root      1225  0.0  0.0  20016   900 tty2     Ss+  Jan09   0:00 /sbin/getty -8 38400 tty2
+root      1226  0.0  0.0  20016   900 tty3     Ss+  Jan09   0:00 /sbin/getty -8 38400 tty3
+root      1229  0.0  0.0  20016   892 tty6     Ss+  Jan09   0:00 /sbin/getty -8 38400 tty6
+root      1260  0.0  0.0  75352  3616 ?        Ss   Jan09   0:00 /usr/sbin/cups-browsed
+root      1266  0.0  0.0  61364  3060 ?        Ss   Jan09   0:00 /usr/sbin/sshd -D
+root      1299  0.0  0.0   4368   704 ?        Ss   Jan09   0:02 acpid -c /etc/acpi/events -s /var/run/acpid.socket
+kernoops  1300  0.0  0.0  37144  1004 ?        Ss   Jan09   0:06 /usr/sbin/kerneloops
+root      1340  0.0  0.0  19264   748 ?        Ss   Jan09   0:42 /usr/sbin/irqbalance
+root      1342  0.0  0.0  23656  1044 ?        Ss   Jan09   0:00 cron
+daemon    1343  0.0  0.0  19140   164 ?        Ss   Jan09   0:00 atd
+root      1366  0.0  0.0 292612  4296 ?        Ssl  Jan09   0:00 lightdm
+root      1386  0.0  0.0  20016   900 tty1     Ss+  Jan09   0:00 /sbin/getty -8 38400 tty1
+whoopsie  1391  0.0  0.0 437204  5244 ?        Ssl  Jan09   0:01 whoopsie
+root      1398  0.0  0.0 302224  4916 ?        Sl   Jan09   0:00 /usr/lib/accountsservice/accounts-daemon
+root      1427  0.0  0.1 463808 44008 tty7     Ssl+ Jan09   1:09 /usr/bin/X -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root      1449  0.0  0.0 168296  3640 ?        Sl   Jan09   0:00 lightdm --session-child 12 15
+root      1464  0.0  0.0      0     0 ?        S    Jan09   0:00 [kauditd]
+ericsson  1477  0.0  0.0  41368  3552 ?        Ss   Jan09   0:00 init --user
+ericsson  1597  0.0  0.0  10616   316 ?        Ss   Jan09   0:00 ssh-agent -s
+ericsson  1608  0.0  0.0  41248  2908 ?        Ss   Jan09   0:09 dbus-daemon --fork --session --address=unix:abstract=/tmp/dbus-Z8omnSQn4P
+ericsson  1619  0.0  0.0  22300  1096 ?        Ss   Jan09   0:00 upstart-event-bridge
+ericsson  1621  0.0  0.0  78328  3408 ?        Ss   Jan09   0:00 /usr/lib/x86_64-linux-gnu/hud/window-stack-bridge
+ericsson  1634  0.0  0.0  22308   388 ?        S    Jan09   0:00 upstart-dbus-bridge --daemon --system --user --bus-name system
+ericsson  1637  0.0  0.0  22308   396 ?        S    Jan09   0:03 upstart-dbus-bridge --daemon --session --user --bus-name session
+ericsson  1638  0.0  0.0  30784   692 ?        S    Jan09   0:00 upstart-file-bridge --daemon --user
+ericsson  1645  0.0  0.0 377140  5664 ?        Ssl  Jan09   0:01 /usr/bin/ibus-daemon --daemonize --xim
+ericsson  1660  0.0  0.0 823036 16440 ?        Ssl  Jan09   0:17 /usr/lib/unity-settings-daemon/unity-settings-daemon
+ericsson  1664  0.0  0.0 646448 15460 ?        Ssl  Jan09   0:00 /usr/lib/x86_64-linux-gnu/hud/hud-service
+ericsson  1686  0.0  0.0 367708  4304 ?        Ssl  Jan09   0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher --launch-immediately
+ericsson  1689  0.0  0.0 584972 11228 ?        Ssl  Jan09   0:00 gnome-session --session=ubuntu
+ericsson  1691  0.0  0.0 506684 21040 ?        Ssl  Jan09   0:21 /usr/lib/unity/unity-panel-service
+ericsson  1695  0.0  0.0  39380  2076 ?        S    Jan09   0:00 /bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
+ericsson  1709  0.0  0.0 124912  3252 ?        Sl   Jan09   0:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+ericsson  1724  0.0  0.0 558380 14296 ?        Sl   Jan09   0:01 /usr/lib/x86_64-linux-gnu/bamf/bamfdaemon
+ericsson  1726  0.0  0.0 196772  3048 ?        Sl   Jan09   0:00 /usr/lib/gvfs/gvfsd
+root      1737  0.0  0.0 239372  4300 ?        Sl   Jan09   0:00 /usr/lib/upower/upowerd
+ericsson  1744  0.0  0.0 360428  6096 ?        Sl   Jan09   0:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+ericsson  1762  0.0  0.0 295656  6156 ?        Sl   Jan09   0:00 /usr/lib/ibus/ibus-dconf
+ericsson  1763  0.0  0.0 488208 16748 ?        Sl   Jan09   0:00 /usr/lib/ibus/ibus-ui-gtk3
+ericsson  1767  0.0  0.0 396392  6576 ?        Sl   Jan09   0:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+ericsson  1786  0.0  0.0 248996  4700 ?        SLl  Jan09   0:00 /usr/bin/gnome-keyring-daemon --start --components=secrets
+ericsson  1804  0.0  0.0 447944  5320 ?        S<l  Jan09   0:16 /usr/bin/pulseaudio --start --log-target=syslog
+rtkit     1806  0.0  0.0 168916  1268 ?        SNl  Jan09   0:06 /usr/lib/rtkit/rtkit-daemon
+ericsson  1903  0.0  0.0 661184 15064 ?        Sl   Jan09   0:00 /usr/lib/x86_64-linux-gnu/indicator-keyboard-service --use-gtk
+ericsson  1905  0.0  0.0 365176  5884 ?        Ssl  Jan09   0:00 /usr/lib/x86_64-linux-gnu/indicator-messages/indicator-messages-service
+ericsson  1906  0.0  0.0 293732  3832 ?        Ssl  Jan09   0:00 /usr/lib/x86_64-linux-gnu/indicator-bluetooth/indicator-bluetooth-service
+ericsson  1911  0.0  0.0 295636  4232 ?        Ssl  Jan09   0:00 /usr/lib/x86_64-linux-gnu/indicator-power/indicator-power-service
+ericsson  1913  0.0  0.0 1164576 11260 ?       Ssl  Jan09   0:08 /usr/lib/x86_64-linux-gnu/indicator-datetime/indicator-datetime-service
+ericsson  1918  0.0  0.0 495592  6204 ?        Ssl  Jan09   0:04 /usr/lib/x86_64-linux-gnu/indicator-sound/indicator-sound-service
+ericsson  1926  0.0  0.0 456432 12264 ?        Ssl  Jan09   0:00 /usr/lib/x86_64-linux-gnu/indicator-printers/indicator-printers-service
+ericsson  1927  0.0  0.0 840872  4516 ?        Ssl  Jan09   0:00 /usr/lib/x86_64-linux-gnu/indicator-session/indicator-session-service
+ericsson  1965  0.0  0.0 1107020 11464 ?       Sl   Jan09   0:00 /usr/lib/evolution/evolution-source-registry
+ericsson  1970  0.0  0.0 219932  4000 ?        Sl   Jan09   0:00 /usr/lib/ibus/ibus-engine-simple
+colord    1978  0.0  0.0 310972  7800 ?        Sl   Jan09   0:00 /usr/lib/colord/colord
+ericsson  1980  0.0  0.0 178176  2628 ?        Sl   Jan09   0:00 /usr/lib/dconf/dconf-service
+ericsson  1989  0.0  0.0 286748  4956 ?        Ssl  Jan09   0:00 /usr/lib/x86_64-linux-gnu/indicator-application/indicator-application-service
+ericsson  2103  0.0  0.1 1096324 44516 ?       Sl   Jan09   0:02 /usr/lib/evolution/evolution-calendar-factory
+root      2104  0.0  0.0      0     0 ?        S    19:03   0:00 [kworker/2:1]
+ericsson  2113  0.0  0.0 349844 10388 ?        Sl   Jan09   0:00 /usr/lib/x86_64-linux-gnu/notify-osd
+ericsson  2121  0.0  0.2 1400796 86600 ?       Sl   Jan09   5:38 compiz
+ericsson  2216  0.0  0.0 410624  9944 ?        Sl   Jan09   0:00 /usr/lib/unity-settings-daemon/unity-fallback-mount-helper
+ericsson  2219  0.0  0.0 468768 14080 ?        Sl   Jan09   0:00 nm-applet
+ericsson  2223  0.0  0.0 890548 24584 ?        Sl   Jan09   0:00 nautilus -n
+ericsson  2226  0.0  0.0 341192 10044 ?        Sl   Jan09   0:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+ericsson  2234  0.0  0.0 311560  5620 ?        Sl   Jan09   0:01 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+root      2239  0.0  0.0 451676  8444 ?        Sl   Jan09   1:36 /usr/lib/udisks2/udisksd --no-debug
+ericsson  2254  0.0  0.0 285964  3192 ?        Sl   Jan09   0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+ericsson  2260  0.0  0.0 200276  2668 ?        Sl   Jan09   0:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+ericsson  2264  0.0  0.0 212440  5168 ?        Sl   Jan09   0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+ericsson  2273  0.0  0.0  58252  3476 ?        S    Jan09   0:00 /usr/lib/x86_64-linux-gnu/gconf/gconfd-2
+ericsson  2307  0.0  0.0 447916  4400 ?        Sl   Jan09   0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.10 /org/gtk/gvfs/exec_spaw/0
+ericsson  2316  0.0  0.0 270376  2844 ?        Sl   Jan09   0:00 /usr/lib/gvfs/gvfsd-burn --spawner :1.10 /org/gtk/gvfs/exec_spaw/1
+ericsson  2455  0.0  0.0 457184 11292 ?        Sl   Jan09   0:00 telepathy-indicator
+ericsson  2463  0.0  0.0 336692  6248 ?        Sl   Jan09   0:02 /usr/lib/telepathy/mission-control-5
+ericsson  2476  0.0  0.0 454336  9176 ?        Sl   Jan09   0:09 zeitgeist-datahub
+ericsson  2481  0.0  0.0 363640  5000 ?        Sl   Jan09   0:00 /usr/bin/zeitgeist-daemon
+ericsson  2487  0.0  0.0 256292  6760 ?        Sl   Jan09   0:08 /usr/lib/x86_64-linux-gnu/zeitgeist-fts
+ericsson  2510  0.0  0.0  11412   280 ?        S    Jan09   0:00 /bin/cat
+ericsson  2539  0.0  0.0 659620 17540 ?        Sl   Jan09   0:02 update-notifier
+ericsson  2561  0.0  0.0 385264  6440 ?        Sl   Jan09   0:02 /usr/lib/x86_64-linux-gnu/deja-dup/deja-dup-monitor
+root      2762  0.0  0.0      0     0 ?        S    Jan09   1:07 [kworker/7:2]
+root      4369  0.0  0.0      0     0 ?        S    19:34   0:00 [kworker/0:0]
+root      8442  0.0  0.0  24440   560 ?        S    Jan09   0:00 dbus-launch --autolaunch 6cd97212fe2194244a9346265493fb48 --binary-syntax --close-stderr
+root      8443  0.0  0.0  39376  1228 ?        Ss   Jan09   0:00 //bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
+root      8445  0.0  0.0  58156  3460 ?        S    Jan09   0:00 /usr/lib/x86_64-linux-gnu/gconf/gconfd-2
+root      8462  0.0  0.0 196640  2756 ?        Sl   Jan09   0:00 /usr/lib/gvfs/gvfsd
+root      8466  0.0  0.0 360428  4064 ?        Sl   Jan09   0:00 /usr/lib/gvfs/gvfsd-fuse /home/ericsson/.gvfs -f -o big_writes
+ericsson  8517  0.0  0.0 251660  7244 ?        Sl   Jan09   0:00 /usr/lib/geoclue/geoclue-master
+ericsson  8521  0.0  0.0 336600  5752 ?        Sl   Jan09   0:00 /usr/lib/x86_64-linux-gnu/ubuntu-geoip-provider
+ericsson  8553  0.0  0.0 869748  9720 ?        Sl   Jan09   0:00 /usr/lib/gvfs/gvfsd-http --spawner :1.10 /org/gtk/gvfs/exec_spaw/2
+root      9399  0.0  0.0      0     0 ?        S    Jan09   1:07 [kworker/5:2]
+root     10096  0.0  0.0      0     0 ?        S    17:34   0:00 [kworker/4:0]
+root     10167  0.0  0.0      0     0 ?        S    19:41   0:00 [kworker/6:0]
+ericsson 11140  0.0  0.0 287216  4024 ?        Sl   Jan09   0:00 /usr/lib/libunity-webapps/unity-webapps-service
+ericsson 11315  0.4  0.3 431948 103628 ?       Sl   19:42   0:03 /usr/bin/python3 /usr/share/oneconf/oneconf-service
+ericsson 11518  0.0  0.0 492068 14776 ?        Ssl  Jan09   0:17 /usr/lib/unity/unity-panel-service --lockscreen-mode
+root     11627  0.0  0.2 353304 72264 ?        Ssl  16:57   0:00 /sbin/zfs-fuse --pidfile /var/run/zfs-fuse.pid
+root     11914  0.0  0.0 109784  4272 ?        Ss   19:11   0:00 sshd: ericsson [priv]
+ericsson 11981  0.0  0.0 110472  2780 ?        S    19:11   0:00 sshd: ericsson@pts/7
+ericsson 11982  0.0  0.0  27372  4336 pts/7    Ss   19:11   0:00 -bash
+root     12001  0.0  0.0  71480  2388 pts/7    S    19:11   0:00 sudo su stack
+root     12042  0.0  0.0  70820  1828 pts/7    S    19:11   0:00 su stack
+stack    12043  0.0  0.0  27504  4624 pts/7    S    19:11   0:00 bash
+root     12598  0.0  0.0 109924  4332 ?        Ss   Jan09   0:00 sshd: root@notty    
+root     12634  0.0  0.0  12824   960 ?        Ss   Jan09   0:00 /usr/lib/openssh/sftp-server
+root     12641  0.0  0.0      0     0 ?        S    Jan09   2:09 [kworker/1:3]
+root     12668  0.0  0.0      0     0 ?        S    Jan09   1:14 [kworker/4:2]
+root     12716  0.0  0.0      0     0 ?        S    Jan09   2:14 [kworker/3:0]
+libvirt+ 12746  6.8  4.4 8749728 1455400 ?     Sl   Jan09 1393:08 qemu-system-x86_64 -enable-kvm -name vm01 -S -machine pc-i440fx-trusty,accel=kvm,usb=off -m 4096 -realtime mlock=off -smp 2,sockets=2,cores=1,threads=1 -uuid 28532fcb-239d-0f96-91ac-4f16124875f2 -no-user-config -nodefaults -chardev socket,id=charmonitor,path=/var/lib/libvirt/qemu/vm01.monitor,server,nowait -mon chardev=charmonitor,id=monitor,mode=control -rtc base=utc -no-shutdown -boot strict=on -device piix3-usb-uhci,id=usb,bus=pci.0,addr=0x1.0x2 -drive file=/var/lib/libvirt/images/vm01.img,if=none,id=drive-virtio-disk0,format=raw -device virtio-blk-pci,scsi=off,bus=pci.0,addr=0x5,drive=drive-virtio-disk0,id=virtio-disk0,bootindex=1 -netdev tap,fd=25,id=hostnet0,vhost=on,vhostfd=26 -device virtio-net-pci,netdev=hostnet0,id=net0,mac=52:54:00:cf:14:38,bus=pci.0,addr=0x3 -chardev pty,id=charserial0 -device isa-serial,chardev=charserial0,id=serial0 -vnc 127.0.0.1:0 -device cirrus-vga,id=video0,bus=pci.0,addr=0x2 -device intel-hda,id=sound0,bus=pci.0,addr=0x4 -device hda-duplex,id=sound0-codec0,bus=sound0.0,cad=0 -device virtio-balloon-pci,id=balloon0,bus=pci.0,addr=0x6
+root     12747  0.0  0.0      0     0 ?        S    Jan09   0:43 [vhost-12746]
+root     12750  0.0  0.0      0     0 ?        S    Jan09   0:00 [kvm-pit/12746]
+libvirt+ 12776  6.8  3.9 8747560 1284752 ?     Sl   Jan09 1398:58 qemu-system-x86_64 -enable-kvm -name vm02 -S -machine pc-i440fx-trusty,accel=kvm,usb=off -m 4096 -realtime mlock=off -smp 2,sockets=2,cores=1,threads=1 -uuid 81dad675-bbb1-4901-823c-450f96f43da0 -no-user-config -nodefaults -chardev socket,id=charmonitor,path=/var/lib/libvirt/qemu/vm02.monitor,server,nowait -mon chardev=charmonitor,id=monitor,mode=control -rtc base=utc -no-shutdown -boot strict=on -device piix3-usb-uhci,id=usb,bus=pci.0,addr=0x1.0x2 -drive file=/var/lib/libvirt/images/vm02.img,if=none,id=drive-virtio-disk0,format=raw -device virtio-blk-pci,scsi=off,bus=pci.0,addr=0x5,drive=drive-virtio-disk0,id=virtio-disk0,bootindex=1 -netdev tap,fd=25,id=hostnet0,vhost=on,vhostfd=27 -device virtio-net-pci,netdev=hostnet0,id=net0,mac=52:54:00:cf:14:39,bus=pci.0,addr=0x3 -chardev pty,id=charserial0 -device isa-serial,chardev=charserial0,id=serial0 -vnc 127.0.0.1:1 -device cirrus-vga,id=video0,bus=pci.0,addr=0x2 -device intel-hda,id=sound0,bus=pci.0,addr=0x4 -device hda-duplex,id=sound0-codec0,bus=sound0.0,cad=0 -device virtio-balloon-pci,id=balloon0,bus=pci.0,addr=0x6
+root     12777  0.0  0.0      0     0 ?        S    Jan09   0:46 [vhost-12776]
+root     12780  0.0  0.0      0     0 ?        S    Jan09   0:00 [kvm-pit/12776]
+libvirt+ 12806  6.5  4.6 8756164 1512464 ?     Sl   Jan09 1331:51 qemu-system-x86_64 -enable-kvm -name vm03 -S -machine pc-i440fx-trusty,accel=kvm,usb=off -m 4096 -realtime mlock=off -smp 2,sockets=2,cores=1,threads=1 -uuid 64215a01-a04b-44ff-8dbe-91fe7057fb99 -no-user-config -nodefaults -chardev socket,id=charmonitor,path=/var/lib/libvirt/qemu/vm03.monitor,server,nowait -mon chardev=charmonitor,id=monitor,mode=control -rtc base=utc -no-shutdown -boot strict=on -device piix3-usb-uhci,id=usb,bus=pci.0,addr=0x1.0x2 -drive file=/var/lib/libvirt/images/vm03.img,if=none,id=drive-virtio-disk0,format=raw -device virtio-blk-pci,scsi=off,bus=pci.0,addr=0x5,drive=drive-virtio-disk0,id=virtio-disk0,bootindex=1 -netdev tap,fd=25,id=hostnet0,vhost=on,vhostfd=28 -device virtio-net-pci,netdev=hostnet0,id=net0,mac=52:54:00:cf:14:40,bus=pci.0,addr=0x3 -chardev pty,id=charserial0 -device isa-serial,chardev=charserial0,id=serial0 -vnc 127.0.0.1:2 -device cirrus-vga,id=video0,bus=pci.0,addr=0x2 -device intel-hda,id=sound0,bus=pci.0,addr=0x4 -device hda-duplex,id=sound0-codec0,bus=sound0.0,cad=0 -device virtio-balloon-pci,id=balloon0,bus=pci.0,addr=0x6
+root     12807  0.0  0.0      0     0 ?        S    Jan09   1:01 [vhost-12806]
+root     12810  0.0  0.0      0     0 ?        S    Jan09   0:00 [kvm-pit/12806]
+libvirt+ 12837  6.5  4.5 8756164 1490112 ?     Sl   Jan09 1327:18 qemu-system-x86_64 -enable-kvm -name vm04 -S -machine pc-i440fx-trusty,accel=kvm,usb=off -m 4096 -realtime mlock=off -smp 2,sockets=2,cores=1,threads=1 -uuid 2cb7c242-ee3b-4e1a-ba4d-bf60c9ccad95 -no-user-config -nodefaults -chardev socket,id=charmonitor,path=/var/lib/libvirt/qemu/vm04.monitor,server,nowait -mon chardev=charmonitor,id=monitor,mode=control -rtc base=utc -no-shutdown -boot strict=on -device piix3-usb-uhci,id=usb,bus=pci.0,addr=0x1.0x2 -drive file=/var/lib/libvirt/images/vm04.img,if=none,id=drive-virtio-disk0,format=raw -device virtio-blk-pci,scsi=off,bus=pci.0,addr=0x5,drive=drive-virtio-disk0,id=virtio-disk0,bootindex=1 -netdev tap,fd=25,id=hostnet0,vhost=on,vhostfd=29 -device virtio-net-pci,netdev=hostnet0,id=net0,mac=52:54:00:cf:14:41,bus=pci.0,addr=0x3 -chardev pty,id=charserial0 -device isa-serial,chardev=charserial0,id=serial0 -vnc 127.0.0.1:3 -device cirrus-vga,id=video0,bus=pci.0,addr=0x2 -device intel-hda,id=sound0,bus=pci.0,addr=0x4 -device hda-duplex,id=sound0-codec0,bus=sound0.0,cad=0 -device virtio-balloon-pci,id=balloon0,bus=pci.0,addr=0x6
+root     12838  0.0  0.0      0     0 ?        S    Jan09   1:33 [vhost-12837]
+root     12841  0.0  0.0      0     0 ?        S    Jan09   0:00 [kvm-pit/12837]
+libvirt+ 12928  6.6  4.7 8756672 1555252 ?     Sl   Jan09 1361:29 qemu-system-x86_64 -enable-kvm -name vm06 -S -machine pc-i440fx-trusty,accel=kvm,usb=off -m 4096 -realtime mlock=off -smp 2,sockets=2,cores=1,threads=1 -uuid b7a1122f-93f9-45e2-a7a5-b432aaaff09e -no-user-config -nodefaults -chardev socket,id=charmonitor,path=/var/lib/libvirt/qemu/vm06.monitor,server,nowait -mon chardev=charmonitor,id=monitor,mode=control -rtc base=utc -no-shutdown -boot strict=on -device piix3-usb-uhci,id=usb,bus=pci.0,addr=0x1.0x2 -drive file=/var/lib/libvirt/images/vm06.img,if=none,id=drive-virtio-disk0,format=raw -device virtio-blk-pci,scsi=off,bus=pci.0,addr=0x5,drive=drive-virtio-disk0,id=virtio-disk0,bootindex=1 -netdev tap,fd=25,id=hostnet0,vhost=on,vhostfd=31 -device virtio-net-pci,netdev=hostnet0,id=net0,mac=52:54:00:cf:14:43,bus=pci.0,addr=0x3 -chardev pty,id=charserial0 -device isa-serial,chardev=charserial0,id=serial0 -vnc 127.0.0.1:5 -device cirrus-vga,id=video0,bus=pci.0,addr=0x2 -device intel-hda,id=sound0,bus=pci.0,addr=0x4 -device hda-duplex,id=sound0-codec0,bus=sound0.0,cad=0 -device virtio-balloon-pci,id=balloon0,bus=pci.0,addr=0x6
+root     12929  0.0  0.0      0     0 ?        S    Jan09   1:44 [vhost-12928]
+root     12932  0.0  0.0      0     0 ?        S    Jan09   0:00 [kvm-pit/12928]
+rabbitmq 12935  0.0  0.0   4444   652 ?        S    18:20   0:00 /bin/sh /usr/sbin/rabbitmq-server
+rabbitmq 12945  0.5  0.1 2212192 41196 ?       Sl   18:20   0:33 /usr/lib/erlang/erts-5.10.4/bin/beam.smp -W w -K true -A30 -P 1048576 -- -root /usr/lib/erlang -progname erl -- -home /var/lib/rabbitmq -- -pa /usr/lib/rabbitmq/lib/rabbitmq_server-3.2.4/sbin/../ebin -noshell -noinput -s rabbit boot -sname rabbit@ER-PC7 -boot start_sasl -kernel inet_default_connect_options [{nodelay,true}] -sasl errlog_type error -sasl sasl_error_logger false -rabbit error_logger {file,"/var/log/rabbitmq/rabbit@ER-PC7.log"} -rabbit sasl_error_logger {file,"/var/log/rabbitmq/rabbit@ER-PC7-sasl.log"} -rabbit enabled_plugins_file "/etc/rabbitmq/enabled_plugins" -rabbit plugins_dir "/usr/lib/rabbitmq/lib/rabbitmq_server-3.2.4/sbin/../plugins" -rabbit plugins_expand_dir "/var/lib/rabbitmq/mnesia/rabbit@ER-PC7-plugins-expand" -os_mon start_cpu_sup false -os_mon start_disksup false -os_mon start_memsup false -mnesia dir "/var/lib/rabbitmq/mnesia/rabbit@ER-PC7"
+libvirt+ 12971  6.6  4.5 8756656 1478040 ?     Sl   Jan09 1358:39 qemu-system-x86_64 -enable-kvm -name vm07 -S -machine pc-i440fx-trusty,accel=kvm,usb=off -m 4096 -realtime mlock=off -smp 2,sockets=2,cores=1,threads=1 -uuid 69e05e76-afd8-439c-b46f-ebf263344dde -no-user-config -nodefaults -chardev socket,id=charmonitor,path=/var/lib/libvirt/qemu/vm07.monitor,server,nowait -mon chardev=charmonitor,id=monitor,mode=control -rtc base=utc -no-shutdown -boot strict=on -device piix3-usb-uhci,id=usb,bus=pci.0,addr=0x1.0x2 -drive file=/var/lib/libvirt/images/vm07.img,if=none,id=drive-virtio-disk0,format=raw -device virtio-blk-pci,scsi=off,bus=pci.0,addr=0x5,drive=drive-virtio-disk0,id=virtio-disk0,bootindex=1 -netdev tap,fd=25,id=hostnet0,vhost=on,vhostfd=32 -device virtio-net-pci,netdev=hostnet0,id=net0,mac=52:54:00:cf:14:44,bus=pci.0,addr=0x3 -chardev pty,id=charserial0 -device isa-serial,chardev=charserial0,id=serial0 -vnc 127.0.0.1:6 -device cirrus-vga,id=video0,bus=pci.0,addr=0x2 -device intel-hda,id=sound0,bus=pci.0,addr=0x4 -device hda-duplex,id=sound0-codec0,bus=sound0.0,cad=0 -device virtio-balloon-pci,id=balloon0,bus=pci.0,addr=0x6
+root     12972  0.0  0.0      0     0 ?        S    Jan09   1:53 [vhost-12971]
+root     12975  0.0  0.0      0     0 ?        S    Jan09   0:00 [kvm-pit/12971]
+libvirt+ 13001  8.0  4.5 8755140 1509384 ?     Sl   Jan09 1635:54 qemu-system-x86_64 -enable-kvm -name vm08 -S -machine pc-i440fx-trusty,accel=kvm,usb=off -m 4096 -realtime mlock=off -smp 2,sockets=2,cores=1,threads=1 -uuid 9e2582fe-b6bd-479c-bb4b-d708957d7915 -no-user-config -nodefaults -chardev socket,id=charmonitor,path=/var/lib/libvirt/qemu/vm08.monitor,server,nowait -mon chardev=charmonitor,id=monitor,mode=control -rtc base=utc -no-shutdown -boot strict=on -device piix3-usb-uhci,id=usb,bus=pci.0,addr=0x1.0x2 -drive file=/var/lib/libvirt/images/vm08.img,if=none,id=drive-virtio-disk0,format=raw -device virtio-blk-pci,scsi=off,bus=pci.0,addr=0x5,drive=drive-virtio-disk0,id=virtio-disk0,bootindex=1 -netdev tap,fd=25,id=hostnet0,vhost=on,vhostfd=33 -device virtio-net-pci,netdev=hostnet0,id=net0,mac=52:54:00:cf:14:45,bus=pci.0,addr=0x3 -chardev pty,id=charserial0 -device isa-serial,chardev=charserial0,id=serial0 -vnc 127.0.0.1:7 -device cirrus-vga,id=video0,bus=pci.0,addr=0x2 -device intel-hda,id=sound0,bus=pci.0,addr=0x4 -device hda-duplex,id=sound0-codec0,bus=sound0.0,cad=0 -device virtio-balloon-pci,id=balloon0,bus=pci.0,addr=0x6
+root     13002  0.0  0.0      0     0 ?        S    Jan09   1:50 [vhost-13001]
+root     13005  0.0  0.0      0     0 ?        S    Jan09   0:00 [kvm-pit/13001]
+rabbitmq 13146  0.0  0.0   7460   424 ?        Ss   18:20   0:00 inet_gethost 4
+rabbitmq 13147  0.0  0.0   9556   652 ?        S    18:20   0:00 inet_gethost 4
+libvirt+ 14342  1.6  4.2 8756680 1394232 ?     Sl   Jan09 343:03 qemu-system-x86_64 -enable-kvm -name vm05 -S -machine pc-i440fx-trusty,accel=kvm,usb=off -m 4096 -realtime mlock=off -smp 2,sockets=2,cores=1,threads=1 -uuid ea13ed94-a828-45fe-aeae-1efe29e06017 -no-user-config -nodefaults -chardev socket,id=charmonitor,path=/var/lib/libvirt/qemu/vm05.monitor,server,nowait -mon chardev=charmonitor,id=monitor,mode=control -rtc base=utc -no-shutdown -boot strict=on -device piix3-usb-uhci,id=usb,bus=pci.0,addr=0x1.0x2 -drive file=/var/lib/libvirt/images/vm05.img,if=none,id=drive-virtio-disk0,format=raw -device virtio-blk-pci,scsi=off,bus=pci.0,addr=0x5,drive=drive-virtio-disk0,id=virtio-disk0,bootindex=1 -netdev tap,fd=25,id=hostnet0,vhost=on,vhostfd=30 -device virtio-net-pci,netdev=hostnet0,id=net0,mac=52:54:00:cf:14:42,bus=pci.0,addr=0x3 -chardev pty,id=charserial0 -device isa-serial,chardev=charserial0,id=serial0 -vnc 127.0.0.1:4 -device cirrus-vga,id=video0,bus=pci.0,addr=0x2 -device intel-hda,id=sound0,bus=pci.0,addr=0x4 -device hda-duplex,id=sound0-codec0,bus=sound0.0,cad=0 -device virtio-balloon-pci,id=balloon0,bus=pci.0,addr=0x6
+root     14343  0.0  0.0      0     0 ?        S    Jan09   1:12 [vhost-14342]
+root     14346  0.0  0.0      0     0 ?        S    Jan09   0:00 [kvm-pit/14342]
+root     16094  0.0  0.0      0     0 ?        S    19:46   0:00 [kworker/5:1]
+root     16347  0.0  0.0      0     0 ?        S    19:12   0:00 [kworker/3:2]
+ericsson 16407  0.0  0.2 660412 70564 ?        SNl  Jan10   0:16 /usr/bin/python3 /usr/bin/update-manager --no-update --no-focus-on-map
+ericsson 18635  0.0  0.0   4444   652 ?        Ss   19:13   0:00 /bin/sh -e /proc/self/fd/9
+ericsson 18640  0.0  0.0  11384   612 ?        S    19:13   0:00 /lib/udev/watershed sh -c /usr/lib/update-notifier/system-crash-notification
+ericsson 18641  0.0  0.0   4444   640 ?        S    19:13   0:00 sh -c /usr/lib/update-notifier/system-crash-notification
+ericsson 18642  0.0  0.0 411460 15104 ?        Sl   19:13   0:00 /usr/lib/update-notifier/system-crash-notification
+root     20699  0.0  0.0  76852  3824 ?        Ss   07:59   0:00 /usr/sbin/cupsd -f
+lp       20702  0.0  0.0  63156  2244 ?        S    07:59   0:00 /usr/lib/cups/notifier/dbus dbus:// 
+root     21474  0.2  0.0 926048 12868 ?        Sl   19:49   0:00 /usr/sbin/libvirtd -d
+root     21776  0.0  0.0      0     0 ?        S    19:49   0:00 [kworker/7:1]
+root     22377  0.0  0.0      0     0 ?        S    18:29   0:00 [kworker/u16:1]
+syslog   22421  0.0  0.0 190308  1144 ?        Ssl  19:49   0:00 rsyslogd
+root     25716  0.0  0.0      0     0 ?        S    Jan13   0:00 [kworker/7:0]
+libvirt+ 26863  0.0  0.0  28208  1012 ?        S    17:55   0:00 /usr/sbin/dnsmasq --conf-file=/var/lib/libvirt/dnsmasq/default.conf
+root     27070  0.0  0.0      0     0 ?        S    17:55   0:00 [kworker/2:0]
+root     27650  0.1  0.0  41696  1240 ?        Ssl  19:51   0:00 /usr/sbin/cpufreqd -f /etc/cpufreqd.conf
+stack    27841  0.0  0.0  22096  7188 pts/7    S+   19:51   0:00 bash ./stack.sh
+stack    27991  0.0  0.0  18072  2040 pts/7    S+   19:51   0:00 bash ./stack.sh
+stack    27992  0.0  0.0  18072  2032 pts/7    S+   19:51   0:00 bash ./stack.sh
+stack    27993  0.0  0.0  24680  6024 pts/7    S+   19:51   0:00 python /home/ericsson/devstack/tools/outfilter.py -v -o /opt/stack/logs/stack.sh.log.2015-01-23-195152
+stack    27995  0.0  0.0  24676  6016 pts/7    S+   19:51   0:00 python /home/ericsson/devstack/tools/outfilter.py -o /opt/stack/logs/stack.sh.log.2015-01-23-195152.summary.2015-01-23-195152
+root     28703  0.0  0.0      0     0 ?        S    18:55   0:00 [kworker/u16:0]
+rabbitmq 29492  0.0  0.0   7496   324 ?        S    19:52   0:00 /usr/lib/erlang/erts-5.10.4/bin/epmd -daemon
+stack    29975  0.0  0.0  24668  6092 pts/7    S+   19:53   0:00 python /home/ericsson/devstack/tools/worlddump.py
+stack    29978  0.0  0.0   4444   648 pts/7    S+   19:53   0:00 sh -c ps auxw
+stack    29979  0.0  0.0  15568  1168 pts/7    R+   19:53   0:00 ps auxw
+root     30996  0.0  0.0      0     0 ?        S    18:06   0:00 [kworker/1:0]
+root     32678  0.0  0.0      0     0 ?        S    Jan16   2:23 [kworker/0:1]
+
+World dumping... see ./worlddump-2015-01-23-142336.txt for details

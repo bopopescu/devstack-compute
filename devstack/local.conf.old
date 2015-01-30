@@ -1,0 +1,33 @@
+[[local|localrc]]
+HOST_IP=100.96.9.133
+MULTI_HOST=1
+DATABASE_PASSWORD=password
+RABBIT_PASSWORD=password
+SERVICE_TOKEN=password
+SERVICE_PASSWORD=password
+ADMIN_PASSWORD=password
+DATABASE_TYPE=mysql
+
+#IMAGE_URLS=",http://cdn.download.cirros-cloud.net/0.3.2/cirros-0.3.2-x86_64-disk.img"
+
+disable_service n-net
+enable_service n-cpu c-vol rabbit
+
+#OFFLINE=True
+
+# Enable Logging
+LOGFILE=/opt/stack/logs/stack.sh.log
+VERBOSE=True
+LOG_COLOR=True
+SCREEN_LOGDIR=/opt/stack/logs
+ENABLE_DEBUG_LOG_LEVEL=True
+
+SERVICE_HOST=100.96.9.19
+MYSQL_HOST=100.96.9.19
+RABBIT_HOST=100.96.9.19
+GLANCE_HOSTPORT=100.96.9.19:9292
+
+NOVA_VNC_ENABLED=True
+NOVNCPROXY_URL="http://100.96.9.19:6080/vnc_auto.html"
+VNCSERVER_LISTEN=$HOST_IP
+VNCSERVER_PROXYCLIENT_ADDRESS=$VNCSERVER_LISTE
