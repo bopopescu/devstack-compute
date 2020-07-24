@@ -27,7 +27,7 @@ from neutron.i18n import _LW
 from neutron.openstack.common import log as logging
 
 VALID_STATES = ['MASTER', 'BACKUP']
-VALID_NOTIFY_STATES = ['master', 'backup', 'fault']
+VALID_NOTIFY_STATES = ['main', 'backup', 'fault']
 VALID_AUTH_TYPES = ['AH', 'PASS']
 HA_DEFAULT_PRIORITY = 50
 PRIMARY_VIP_RANGE_SIZE = 24
@@ -342,7 +342,7 @@ class KeepalivedNotifierMixin(object):
         return '%s\necho -n %s > %s' % (script, state, state_path)
 
     def add_notifier(self, script, state, ha_vr_id):
-        """Add a master, backup or fault notifier.
+        """Add a main, backup or fault notifier.
 
         These notifiers are executed when keepalived invokes a state
         transition. Write a notifier to disk and add it to the

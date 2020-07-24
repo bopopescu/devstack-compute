@@ -165,7 +165,7 @@ class L3AgentTestFramework(base.BaseOVSLinuxTestCase):
     group {
         VR_1
     }
-    notify_master "%(ha_confs_path)s/%(router_id)s/notify_master.sh"
+    notify_main "%(ha_confs_path)s/%(router_id)s/notify_main.sh"
     notify_backup "%(ha_confs_path)s/%(router_id)s/notify_backup.sh"
     notify_fault "%(ha_confs_path)s/%(router_id)s/notify_fault.sh"
 }
@@ -337,7 +337,7 @@ class L3AgentTestCase(L3AgentTestFramework):
             port = self.agent._get_ex_gw_port(router)
             interface_name = self.agent.get_external_device_name(port['id'])
             self._assert_no_ip_addresses_on_interface(router, interface_name)
-            helpers.wait_until_true(lambda: router.ha_state == 'master')
+            helpers.wait_until_true(lambda: router.ha_state == 'main')
 
             # Keepalived notifies of a state transition when it starts,
             # not when it ends. Thus, we have to wait until keepalived finishes
@@ -436,7 +436,7 @@ class L3HATestFramework(L3AgentTestFramework):
 
         router2 = self.manage_router(self.failover_agent, router_info_2)
 
-        helpers.wait_until_true(lambda: router1.ha_state == 'master')
+        helpers.wait_until_true(lambda: router1.ha_state == 'main')
         helpers.wait_until_true(lambda: router2.ha_state == 'backup')
 
         device_name = self.agent.get_ha_device_name(
@@ -445,7 +445,7 @@ class L3HATestFramework(L3AgentTestFramework):
                                     router1.ns_name)
         ha_device.link.set_down()
 
-        helpers.wait_until_true(lambda: router2.ha_state == 'master')
+        helpers.wait_until_true(lambda: router2.ha_state == 'main')
         helpers.wait_until_true(lambda: router1.ha_state == 'fault')
 
 

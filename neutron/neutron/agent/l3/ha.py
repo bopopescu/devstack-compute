@@ -154,7 +154,7 @@ class AgentMixin(object):
                                                 self.conf))
         pid = pm.get_pid_file_name(ensure_pids_dir=True)
         ri.keepalived_manager.add_notifier(
-            callback(pid), 'master', ri.ha_vr_id)
+            callback(pid), 'main', ri.ha_vr_id)
         for state in ('backup', 'fault'):
             ri.keepalived_manager.add_notifier(
                 ['kill', '-%s' % signal.SIGKILL,
@@ -181,7 +181,7 @@ class AgentMixin(object):
         self._add_default_gw_virtual_route(ri, ex_gw_port, interface_name)
 
     def _should_delete_ipv6_lladdr(self, ri, ipv6_lladdr):
-        """Only the master should have any IP addresses configured.
+        """Only the main should have any IP addresses configured.
         Let keepalived manage IPv6 link local addresses, the same way we let
         it manage IPv4 addresses. In order to do that, we must delete
         the address first as it is autoconfigured by the kernel.
@@ -203,7 +203,7 @@ class AgentMixin(object):
     def _ha_disable_addressing_on_interface(self, ri, interface_name):
         """Disable IPv6 link local addressing on the device and add it as
         a VIP to keepalived. This means that the IPv6 link local address
-        will only be present on the master.
+        will only be present on the main.
         """
         device = ip_lib.IPDevice(interface_name, self.root_helper, ri.ns_name)
         ipv6_lladdr = self._get_ipv6_lladdr(device.link.address)
